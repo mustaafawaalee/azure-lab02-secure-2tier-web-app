@@ -34,7 +34,12 @@ I configured Network Security Groups so the web VM could accept public traffic o
 This architecture improves security by exposing only the web server to the internet while keeping the database server private. Network segmentation and NSG rules help limit unnecessary access between systems.
 
 ## Screenshots
-Upload screenshots to a `screenshots` folder and link them here.
+
+### Web VM
+![Web VM](Vm-web-01.png)
+
+### DB VM
+![DB VM](Vm-db-02.png)
 
 ## What I Learned
 This lab helped me better understand Azure virtual networks, subnetting, Linux virtual machines, SSH connectivity, NSG rules, and how to build a more secure 2-tier cloud design.
